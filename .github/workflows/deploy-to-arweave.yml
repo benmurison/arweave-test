@@ -28,4 +28,4 @@ jobs:
         npm install -g arkb
         echo "${{ secrets.ARWEAVE_WALLET }}" > wallet.json
         cat wallet.json
-        arkb deploy build --auto-confirm --wallet /wallet.json
+        arkb deploy build --auto-confirm --wallet wallet.json
