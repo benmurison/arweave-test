@@ -25,7 +25,7 @@ jobs:
 
     - name: Deploy to Arweave
       run: |
-        npm install -g arkb
+        npm install -g arkb@latest
         echo "${{ secrets.ARWEAVE_WALLET }}" > wallet.json
         cat wallet.json
         arkb deploy build --auto-confirm --wallet wallet.json
