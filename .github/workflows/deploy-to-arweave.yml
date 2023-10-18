@@ -27,5 +27,4 @@ jobs:
       run: |
         npm install -g arkb@latest
         echo "${{ secrets.ARWEAVE_WALLET }}" > wallet.json
-        arkb wallet-save wallet.json outlier
-        arkb --auto-confirm deploy build 
+        arkb --auto-confirm --wallet ./wallet.json deploy ./build 
