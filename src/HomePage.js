@@ -5,7 +5,7 @@ function HomePage() {
   return (
   <>
    <div>
-    Welcome to the 0xCatchup Home Page!
+    Welcome to the new 0xCatchup Home Page!
     <Link to="/about" style={{ padding: 5 }}>About</Link>
     </div>
   </>
