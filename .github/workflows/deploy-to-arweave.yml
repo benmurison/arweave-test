@@ -24,7 +24,8 @@ jobs:
         npm run build
 
     - name: Deploy to Arweave
+      env:
+        ETH_PRIVATE_KEY: ${{ secrets.ETH_PRIVATE_KEY }}
       run: |
-        npm install -g arkb@latest
-        echo "${{ secrets.ARWEAVE_WALLET }}" > wallet.json
-        arkb --auto-confirm --wallet ./wallet.json deploy ./build 
+        node src/scripts/deploy.js
+

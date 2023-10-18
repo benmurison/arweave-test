@@ -1,0 +1,19 @@
+{
+"manifest": "arweave/paths",
+"version": "0.1.0",
+"paths": {
+"asset-manifest.json":{"id":"GnpHXlrvHwxgRt7dLpAUv51vclJGqDl5pEEI2YFIa1o"},
+"static/css/main.e6c13ad2.css":{"id":"BSGjpr1AHjf59zxerAz4oxxxSjY7xnr11nR9jyonUpg"},
+"index.html":{"id":"4JwZ4IJp-ul7nJ7hvpKwOa2xws-nK4MFJIQ00RBwlEM"},
+"logo192.png":{"id":"jiIBqmeM4DLCq1oNckxDnxknOJnQ0GaSo6kuFayeeUw"},
+"static/css/main.e6c13ad2.css.map":{"id":"ZX_pCrcIp2DoZFSFcV2M69ppfBpiTehby-icKbVAIzQ"},
+"logo512.png":{"id":"nfBLA6_kgrbrdlKHlIe2MUcDB_8rqCGn98dvzVUW79U"},
+"robots.txt":{"id":"-Shg9BIhFTUydPEwCnGeOLaD5Aemp1GBi4Usq0774RU"},
+"static/js/main.38264815.js.LICENSE.txt":{"id":"Wj8vSgi2Z2Q89InaY1gPkBc4a5TAi6ngszW-ZWh9gOw"},
+"favicon.ico":{"id":"EJfUwqQ_HjkfLOnVxOpkpEG31_WmaEpsBDLih2b-JYI"},
+"manifest.json":{"id":"9eIKfDgXX_IP1uupaA0tnx6dRbD06PjIS4GzKMnIXZo"},
+"static/js/main.38264815.js":{"id":"ESfXH2SipN9WLNDopBZs3ldDvMlgVmnHOd_PMyler8A"},
+"static/js/main.38264815.js.map":{"id":"3bz1uBqy0N8WdQe3L8usTEzbtfAJZnfUJROBgQ-qm70"}
+},
+"index":{"path":"index.html"}
+}
